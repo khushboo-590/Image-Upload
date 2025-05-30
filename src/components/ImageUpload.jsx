@@ -24,7 +24,7 @@ function ImageUpload() {
     };
 
     return (
-        <div className="p-6 mx-auto bg-gradient-to-tr from-[#8abaab] via-[#0585dbd6] to-[#02385d] min-h-screen text-center border border-gray-200">
+        <div className="p-6 mx-auto bg-gradient-to-tr from-[#629acc] via-[#cd80d8d6] to-[#152b3a] min-h-screen text-center border border-gray-200">
             <h1 className="text-3xl font-bold mb-6 text-white pt-10">Upload Image</h1>
             <label className="inline-block cursor-pointer mb-4">
                 <span className="inline-block bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-2 rounded-full shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out">
@@ -38,7 +38,7 @@ function ImageUpload() {
                     <img
                         src={preview}
                         alt="Uploaded Preview"
-                        className="w-full h-full object-cover rounded-xl border-2 border-gray-300 shadow mt-5" />
+                        className="w-full h-full object-cover rounded-xl border-2 border-gray-300 shadow mt-5 hover:scale-105 transition duration-500" />
                     <button
                         onClick={handleRemove}
                         className="absolute -top-2 -right-2 bg-black rounded-full w-7 h-7 flex items-center justify-center shadow-md hover:bg-red-600 hover:text-white transition-colors"
